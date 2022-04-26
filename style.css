@@ -1,0 +1,628 @@
+body {
+    background-color:hsl(218,28%,13%);
+    color:hsl(0,0%,100%);
+    font-family: 'Open Sans',sans-serif;
+   }
+
+   .fylo{
+     height: 11%;
+     width: 15%;
+     margin: 1em 0em 0em 2em;
+   }
+   .navbar{
+    display:flex;
+    position:absolute;
+    top:0%;
+   }
+   
+   ul{
+    list-style-type:none;
+    display:flex;
+    font-size:14px;
+    margin-top:2em;
+    margin-left: 40em;
+   }
+   li{
+    font-size:14px;
+    margin-left:5em ;
+    float: left;
+   }
+   li:hover{
+      font-size:14px;
+      text-decoration: underline;
+   }
+   
+   #header{
+    align-items:center;
+    text-align:center;
+    font-size: 14px;
+    margin-top:8em;
+   }
+   
+   #head{
+    margin:0em 34em 3em;
+   }
+   
+   .get {
+    color: white;
+    font-size:14px;
+    background-color:hsl(176,68%,64%);
+    border:15px solid;
+    border-color:hsl(176,68%,64%);
+    border-radius:200px;
+    font-family: 'Raleway', sans-serif,;
+    padding: 0px 50px 0px 50px;
+    text-decoration: none;
+   }
+   
+   .get:hover{
+    cursor:pointer;
+    background-color:hsl(176,68%,64%);
+    border:12px solid;
+    border-color:hsl(176,68%,64%);
+    border-radius:200px;
+    text-decoration:none;
+    padding: 0px 50px 0px 50px;
+   }
+   
+   #part1{
+    margin:17em 20em 0em;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+    font-size:14px;
+   }
+   
+   .part2{
+    margin:1em 20em 0em;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    text-align:center;
+    font-size:14px;
+   }
+   
+   .desk{
+    margin:0em 0em 4em 0em;
+   }
+   .secure{
+    margin:0em 0em 4em 5em;
+   }
+   .real{
+    margin:0em 0em 4em 0em;
+   }
+   .file{
+    margin:0em 0em 4em 5em;
+   }
+   
+   .text{
+    margin-top:30em;
+    align-items:center;
+    
+   }
+    
+   .doing{
+    margin:9em 10em 0em 2em;
+    display: flex;
+   }
+   
+   #doings{
+    margin:3em 3em 0em 17em;
+   }
+   
+   .shift{
+    margin:6em 0em 2em 0em;
+   }
+   
+   .how{
+     color:hsl(176,68%,64%)
+   }
+   
+   #arrow{
+    margin:0em 0em 0em;
+   }
+   
+   .flex{
+    display:flex;
+   }
+
+   .how:hover{
+     cursor: pointer;
+     color:white;
+  }
+   
+   #quote{
+    margin:9em 0em 0em 12em;
+    align-items:center;
+   }
+   .review{
+    align-items:center;
+    display: flex;
+    font-size: 14px;
+   }
+   #review1{
+    background-color:hsl(219,30%,18%);
+    margin:0em 4em 0em 12em;
+    padding:0px 15px 4px;
+    text-align:left;
+   }
+   
+   #review2{
+    background-color:hsl(219,30%,18%);
+    margin:0em 6em 0em 4em;
+    padding:0px 15px 4px;
+    text-align:left;
+   }
+   
+   #review3{
+    background-color:hsl(219,30%,18%);
+    margin:0em 6em 0em 4em;
+    padding:0px 15px 4px;
+    text-align:left;
+   }
+    
+   .people{
+    border-radius:50%;
+   }
+   
+   #np{
+    display:flex;
+   }
+   
+   .getearly{
+    background-color:hsl(217,28%,15%);
+    margin:9em 16em 0em 20em;
+    text-align:center;
+    padding:13px 0px;
+    align-items:center;
+    font-size: 14px;
+   }
+   input{
+    margin:1em 8em 0em 11em;
+    border:12px solid;
+    border-radius:200px;
+    border-color:white;
+    font-size:14px;
+    width:fit-content;
+    padding:0px 50px 0 10px;
+    align-items:center;
+    text-align:left;
+   }
+   .getstartedforfree{
+    color: white;
+    font-size:14px;
+    background-color:hsl(176,68%,64%);
+    border:12px solid;
+    border-color:hsl(176,68%,64%);
+    border-radius:200px;
+    text-decoration:none;
+    align-items:center;
+    margin:1em 10em 2em 0em;
+    font-family: 'Raleway', sans-serif,
+   }
+   
+   .getstartedforfree:hover{
+    cursor:pointer;
+    background-color:hsl(176,68%,64%);
+    border:12px solid;
+    border-color:hsl(176,68%,64%);
+    border-radius:200px;
+   }
+   
+   #flexed{
+    display:flex;
+    flex-direction:row;
+   }
+   
+   .foot{
+   background-color:hsl(216,53%,9%);
+   display:flex;
+   flex-direction: row;
+   }
+   #logs{
+    margin:7em 0em 2em 4em;
+    height: 11%;
+    width: 20%;
+   }
+
+   .align{
+    display: flex;
+    justify-content: space-between;
+   }
+   .lorem{
+    font-size:14px;
+    display: flex;
+   }
+   
+   #locate{
+      margin:0em 0em 0em 1em;
+      float: center;
+     }
+   #both{
+    display: flex;
+    flex-direction: column;
+   }
+   .call{
+   font-size:14px;
+   display: flex;
+   margin:170px 0px 0px 2px;
+   }
+   .callimg{
+     margin: 0em 0em 0em 6em;
+   }
+   
+   .mailbox{
+   font-size:14px;
+   margin:0em 2em 0em 0em;
+   display: flex;
+   }
+   .mailimg{
+     margin:0em 0em 0em 5em ;
+   }
+   
+   #jobs{
+    display:flex;
+    flex-direction:column;
+    margin-left:1em;
+    font-size:14px;
+    margin:181px 100px 40px 145px;
+   }
+   .us:hover{
+     font-weight: 700;
+   }
+   .jo:hover{
+    font-weight: 700;
+   }
+   .press:hover{
+    font-weight: 700;
+   }
+   .blog:hover{
+    font-weight: 700;
+   }
+
+
+   #jobes{
+    display:flex;
+    flex-direction:column;
+    margin-left:1em;
+    font-size:14px;
+    margin:181px 0px 0px 0px;
+   }
+   #jobes:hover{
+     cursor: pointer;
+   }
+   .contactus:hover{
+    font-weight: 700;
+  }
+  .terms:hover{
+   font-weight: 700;
+  }
+  .privacy:hover{
+   font-weight: 700;
+   }
+   
+   .socials{
+     margin-top: 193px;
+     margin-left: 4em;
+   }
+   .socials:hover{
+     cursor: pointer;
+   }
+
+   @media screen and (max-width:719px){
+    body {
+      background-color:hsl(218,28%,13%);
+      color:hsl(0,0%,100%);
+      font-family: 'Open Sans',sans-serif;
+     }
+
+     .fylo{
+      height: 12%;
+      width: 15%;
+      margin-left: 1em;
+      margin-top: 1em;
+     }
+     
+     .navbar{
+      display:flex;
+      position:absolute;
+      top:0%;
+     }
+     
+     ul{
+      list-style-type:none;
+      display:flex;
+      font-size:14px;
+      margin-top:2em;
+      margin-left:12em;
+     }
+     li{
+      font-size:14px;
+     margin-left: 3em;
+      float: right;
+     }
+     li:hover{
+        font-size:14px;
+        text-decoration: underline;
+     }
+
+   #header{
+    align-items:center;
+    text-align:center;
+    font-size: 14px;
+    margin-top:8em;
+   }
+   .lap{
+     margin-left:3em;
+   }
+   
+   #head{
+    margin:0em 3em 2em 3em;
+   }
+   
+   .get {
+    color: white;
+    font-size:14px;
+    background-color:hsl(176,68%,64%);
+    border:15px solid;
+    border-color:hsl(176,68%,64%);
+    border-radius:200px;
+    margin: 2em 3em 0em 5em;
+    font-family: 'Raleway', sans-serif,;
+    padding:0px 50px 0px 50px;
+    text-decoration: none;
+   }
+   
+   .get:hover{
+    cursor:pointer;
+    background-color:hsl(176,68%,64%);
+    border:12px solid;
+    border-color:hsl(176,68%,64%);
+    border-radius:200px;
+    padding: 0px 50px 0px 50px;
+   }
+
+   #part1{
+    margin:17em 5em 0em 0em;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+    font-size:14px;
+   }
+   
+   .part2{
+    margin:1em 5em 0em 0em;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    text-align:center;
+    font-size:14px;
+   }
+   
+   .desk{
+    margin:0em 0em 5em 7em;
+   }
+   .secure{
+    margin:0em 0em 4em 5em;
+   }
+   .real{
+    margin:0em 0em 5em 7em;
+   }
+   .file{
+    margin:0em 0em 4em 5em;
+   }
+   
+   .text{
+    margin-top:30em;
+    align-items:center; 
+   }
+
+   .doing{
+    margin:9em 7em 0em 2em;
+    display: flex;
+    flex-direction: column;
+   }
+   
+   #doings{
+    margin:3em 4em 0em 9em;
+   }
+   
+   .shift{
+    margin:2em 0em 2em 6em;
+   }
+   
+   .how{
+     color: hsl(176,68%,64%);
+   }
+   .how:hover{
+     color: white;
+   }
+   #arrow{
+    margin:0em 0em 0em;
+   }
+   
+   .flex{
+    display:flex;
+   }
+
+   .flex:hover{
+     color:white;
+   }
+   
+   #quote{
+    margin:9em 0em 0em 9em;
+    align-items:center;
+   }
+
+   .review{
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+   }
+   #review1{
+    background-color:hsl(219,30%,18%);
+    margin:0px 120px 0px 120px;
+    padding:0px 15px 4px;
+    text-align:left;
+   }
+   
+   #review2{
+    background-color:hsl(219,30%,18%);
+    margin:30px 120px 0px 120px;
+    padding:0px 15px 4px;
+    text-align:left;
+   }
+   
+   #review3{
+    background-color:hsl(219,30%,18%);
+    margin:30px 120px 0px 120px;
+    padding:0px 15px 4px;
+    text-align:left;
+   }
+    
+   .people{
+    border-radius:50%;
+   }
+   
+   #np{
+    display:flex;
+   }
+
+   .getearly{
+    background-color:hsl(217,28%,15%);
+    margin:9em 6em 0em 6em;
+    text-align:center;
+    padding:13px 0px;
+    align-items:center;
+    font-size: 14px;
+   }
+   input{
+    margin:1em 20em 0em 10em;
+    border:12px solid;
+    border-radius:200px;
+    border-color:white;
+    font-size:14px;
+    width:fit-content;
+    padding:0px 0px 0px 4px;
+    align-items:center;
+    text-align:left;
+   }
+   .getstartedforfree{
+    color: white;
+    font-size:14px;
+    background-color:hsl(176,68%,64%);
+    border:12px solid;
+    border-color:hsl(176,68%,64%);
+    border-radius:200px;
+    text-decoration:none;
+    align-items:center;
+    margin:1em 13em 3em 10em;
+    font-family: 'Raleway', sans-serif,
+   }
+   
+   .getstartedforfree:hover{
+    cursor:pointer;
+    background-color:hsl(176,68%,64%);
+    border:12px solid;
+    border-color:hsl(176,68%,64%);
+    border-radius:200px;
+   }
+   
+   #flexed{
+    display:flex;
+    flex-direction:column;
+   }
+
+   .foot{
+    background-color:hsl(218,28%,13%);
+    display:flex;
+    flex-direction:column;
+
+    }
+    #logs{
+     height:11%;
+     width: 15%;
+    }
+ 
+    .align{
+     display: flex;
+     justify-content: space-between;
+    }
+    .lorem{
+     display: flex;
+    }
+    
+    #locate{
+       margin:0px 0em 0em 2em;
+      }
+
+    .call{
+    font-size:14px;
+    display: flex;
+    margin:19px 0px 0px 2px;
+    }
+    .callimg{
+      margin: 0em 0em 0em 6em;
+    }
+    
+    .mailbox{
+    font-size:14px;
+    margin:1em 2em 0em 0em;
+    display: flex;
+    }
+    .mailimg{
+      margin:0em 0em 0em 5em ;
+    }
+    
+    #jobs{
+     display:flex;
+     flex-direction:column;
+     margin-left:1em;
+     font-size:14px;
+     margin:65px 0px 65px 95px;
+    }
+    .us:hover{
+      font-weight: 700;
+    }
+    .jo:hover{
+     font-weight: 700;
+    }
+    .press:hover{
+     font-weight: 700;
+    }
+    .blog:hover{
+     font-weight: 700;
+   }
+ 
+    #jobes{
+     display:flex;
+     flex-direction:column;
+     font-size:14px;
+     margin:0px 0px 0px 80px;
+     }
+     .contactus:hover{
+      font-weight: 700;
+    }
+    .terms:hover{
+     font-weight: 700;
+    }
+    .privacy:hover{
+     font-weight: 700;
+     }
+    
+     .socials{
+      margin-top: 50px;
+      margin-left:18em;
+     }
+     .socials:hover{
+       cursor: pointer;
+       color:aquamarine;
+     }
+    }
